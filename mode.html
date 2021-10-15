@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+
+    <!--IEブラウザで互換表示させないためのmetaタグ-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!--レスポンシブデザインを使うためのmetaタグ-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>モード選択</title>
+
+    <!-- BootstrapのCSS読み込み -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- CSSファイルの読み込み-->
+    <link href="css/mode.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <header>モード選択</header>
+    <p>モードを選択してください</p>
+    <div class="container">     <!--"container" か "container-fluid"-->
+  
+      <div class="row" >         <!--class container の内側に記述、任意の名前？-->
+        
+        <div class="col-md-4 border border-dark">
+          <button type="button" class="btn btn-primary w-100 m-3">新規モード</button>
+        </div>
+        
+        <div class="col-md-4 border border-dark">
+          <button type="button" class="btn btn-primary w-100 m-3">変更モード</button>
+        </div>
+
+        <div class="col-md-4 border border-dark">
+          <button type="button" class="btn btn-primary w-100 m-3">終了</button>
+        </div>
+
+      </div>
+
+    </div>
+
+    <footer>フッター</footer>
+    <!-- jQuery読み込み JSより先に読み込むこと-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- BootstrapのJS読み込み -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
